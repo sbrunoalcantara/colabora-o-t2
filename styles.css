@@ -25,3 +25,16 @@ ul{
     list-style: none;
     font-size: 1.5rem;
 }
+
+
+li{
+    width: 10vw;
+}
+
+li:hover{
+    font-weight: bold;
+    transform: scale(110%);
+    color:brown;
+    transition: 1.5s ease-in-out;
+    cursor: pointer;
+}

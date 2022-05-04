@@ -10,4 +10,18 @@ header img{
 
 header{
     background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    font-size: 1.5rem;
 }
